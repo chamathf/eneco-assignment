@@ -63,3 +63,34 @@ This project verifies the correctness, reliability, and performance of the Restf
 ├── target                         # Compiled output and reports
 ├── pom.xml                        # Maven project descriptor
 └── README.md                      # This file
+
+## Setup Instructions
+
+### Prerequisites
+- Java 11+
+- Maven 3.6+
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/restful-booker-api-tests.git
+cd eneco-assignment
+mvn install
+
+## Running Tests
+
+Run all tests locally
+
+```sh
+   mvn clean install
+
+## Viewing Test Reports
+
+Generate Allure report
+
+```sh
+   mvn allure:report
+
+----sh
+  Serve Allure report locally
