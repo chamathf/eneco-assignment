@@ -139,5 +139,5 @@ allure serve target/allure-results
 
 ## Notes
 
-Test Cases are paralelly run in 3 cores
-Retry failed Test 2 Times
+- Test Cases are paralelly run in 3 cores
+- Retry failed Test 2 Times
