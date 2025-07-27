@@ -1,0 +1,8 @@
+{
+  "firstname": "Sally",
+  "lastname": "Brown",
+  "checking": "2012-02-23",
+  "checkout": "2014-10-23",
+  "invalidCheckingDate": "20-02-2023",
+  "invalidFirstname": 123
+}

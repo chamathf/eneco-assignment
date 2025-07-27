@@ -1,0 +1,15 @@
+{
+  "nonExistentBookingId": 999999,
+  "invalidToken": "invalid-token",
+  "deleteBookingPayload": {
+    "firstname": "ToDelete",
+    "lastname": "User",
+    "totalprice": 200,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-10"
+    },
+    "additionalneeds": "Lunch"
+  }
+}

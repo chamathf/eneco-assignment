@@ -1,0 +1,44 @@
+{
+  "invalidDataType": {
+    "firstname": 123,
+    "lastname": true,
+    "totalprice": "one hundred",
+    "depositpaid": "yes",
+    "bookingdates": {
+      "checkin": 20250701,
+      "checkout": false
+    }
+  },
+
+
+  "specialCharacters": {
+    "firstname": 123,
+    "lastname": "\" OR \"1\"=\"1",
+    "totalprice": 200,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-01-01",
+      "checkout": "2024-01-10"
+    },
+    "additionalneeds": ""
+  },
+
+  "sqlInjectionQuery": {
+    "firstname": "' OR '1'='1",
+    "lastname": "' OR '1'='1"
+  },
+
+  "missingFields": {
+
+  },
+
+  "malformedJson": {
+    "firstname": "John",
+    "lastname": "",
+    "": null,
+    "depositpaid": 1233
+  }
+
+
+
+}

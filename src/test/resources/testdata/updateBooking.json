@@ -1,0 +1,48 @@
+{
+  "validBookingId": 79,
+  "invalidBookingId": -1,
+  "updateSingleField": {
+    "firstname": "Alice",
+    "lastname": "Smith",
+    "totalprice": 100,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-10-01",
+      "checkout": "2024-10-10"
+    },
+    "additionalneeds": "Lunch"
+  },
+  "updateMultipleFields": {
+    "firstname": "Bob",
+    "lastname": "Marley",
+    "totalprice": 222,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-05"
+    },
+    "additionalneeds": "Dinner"
+  },
+  "updateBookingDatesOnly": {
+    "firstname": "Temp",
+    "lastname": "Temp",
+    "totalprice": 0,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-12-12",
+      "checkout": "2024-12-20"
+    },
+    "additionalneeds": "Nothing"
+  },
+  "invalidDataType": {
+    "firstname": -1,
+    "lastname": "@#@#@$@$",
+    "totalprice": "1222",
+    "depositpaid": "EWRR",
+    "bookingdates": {
+      "checkin": "wrongdateEQRQ@$@@$",
+      "checkout": "wrong@$@$@$@date"
+    },
+    "additionalneeds": 1233
+  }
+}

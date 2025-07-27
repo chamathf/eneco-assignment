@@ -1,0 +1,48 @@
+{
+  "bulkBookings": [
+    {
+      "firstname": "BulkUser",
+      "lastname": "Test0",
+      "totalprice": 101,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2025-09-01",
+        "checkout": "2025-09-10"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    {
+      "firstname": "BulkUser",
+      "lastname": "Test1",
+      "totalprice": 102,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2025-09-01",
+        "checkout": "2025-09-10"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    {
+      "firstname": "BulkUser",
+      "lastname": "Test2",
+      "totalprice": 103,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2025-09-01",
+        "checkout": "2025-09-10"
+      },
+      "additionalneeds": "Breakfast"
+    }
+  ],
+  "updateMultipleFields": {
+    "firstname": "UpdatedUser",
+    "lastname": "UpdatedLast",
+    "totalprice": 150,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-10-01",
+      "checkout": "2025-10-15"
+    },
+    "additionalneeds": "Lunch"
+  }
+}
