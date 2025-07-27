@@ -22,7 +22,7 @@ This project verifies the correctness, reliability, and performance of the Restf
 - **Maven** (Build Tool)
 - **Allure** (Test Reporting)
 - **GitHub Actions** (CI/CD)
-- **SLF4J** (Logging)
+
 
 ---
 
@@ -93,6 +93,7 @@ EnecoAssignment/
 
 ### Prerequisites
 - Java 11+
+- Junit
 - Maven 3.6+
 - Git
 
