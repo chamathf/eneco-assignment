@@ -137,6 +137,9 @@ allure serve target/allure-results
 <img width="1053" height="887" alt="image" src="https://github.com/user-attachments/assets/99d2b90c-f826-42df-a643-c82efeb19d7e" />
 
 
+<img width="1907" height="796" alt="image" src="https://github.com/user-attachments/assets/555c75d2-33d1-4f65-b66f-3d747f97a7e5" />
+
+
 ## Notes
 
 - Test Cases are paralelly run in 3 cores
