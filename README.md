@@ -130,8 +130,14 @@ Serve the Allure report locally:
 allure serve target/allure-results
 ```
 
-<img width="1898" height="887" alt="image" src="https://github.com/user-attachments/assets/75e99ac4-00e9-4d38-8f45-bbf21f43c96b" />
+<img width="1907" height="885" alt="image" src="https://github.com/user-attachments/assets/9c6cd057-afa6-45f1-a882-b4eb327e3f2c" />
 
 
-<img width="1062" height="872" alt="image" src="https://github.com/user-attachments/assets/17257e00-bf5e-44ad-afa3-88efee1af230" />
 
+<img width="1053" height="887" alt="image" src="https://github.com/user-attachments/assets/99d2b90c-f826-42df-a643-c82efeb19d7e" />
+
+
+## Notes
+
+Test Cases are paralelly run in 3 cores
+Retry failed Test 2 Times
