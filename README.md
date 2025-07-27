@@ -4,7 +4,7 @@ This repository contains an automated test suite for the [Restful-Booker API](ht
 
 ---
 
-##  Overview
+## Overview
 
 This project verifies the correctness, reliability, and performance of the Restful-Booker API using automated regression tests. It includes:
 - End-to-end API testing
@@ -14,7 +14,7 @@ This project verifies the correctness, reliability, and performance of the Restf
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 - **Java** (Test Language)
 - **JUnit** (Test Framework)
@@ -28,41 +28,26 @@ This project verifies the correctness, reliability, and performance of the Restf
 
 ## What’s Tested
 
-###  GET /booking
+### GET /booking
 - Retrieve all booking IDs
 - Filter by `firstname`, `lastname`, `checkin`, `checkout`
 - Combined filters
 - Invalid parameters
 - Response structure and timing
 
-###  PATCH /booking/{id}
+### PATCH /booking/{id}
 - Single and multiple field updates
 - Nested `bookingdates` update
 - Invalid ID, missing token, invalid data formats
 - Idempotent behavior
 
-###  DELETE /booking/{id}
+### DELETE /booking/{id}
 - Valid and invalid deletions
 - Deletion verification (404 on GET)
 - Token-based auth validation
 - Concurrency tests
 
 ---
-
-##  Project Structure
-
-```bash
-.
-├── src
-│   ├── test
-│   │   ├── java
-│   │   │   └── api                # Test classes
-│   │   │   └── utils              # Helper utilities (e.g., Auth helper)
-│   │   └── resources
-│   │       └── test-data          # Test data files (JSON/CSV)
-├── target                         # Compiled output and reports
-├── pom.xml                        # Maven project descriptor
-└── README.md                      # This file
 
 ## Setup Instructions
 
@@ -75,22 +60,32 @@ This project verifies the correctness, reliability, and performance of the Restf
 
 ```bash
 git clone https://github.com/your-username/restful-booker-api-tests.git
-cd eneco-assignment
+cd restful-booker-api-tests
 mvn install
+```
+
+---
 
 ## Running Tests
 
-Run all tests locally
+Run all tests locally:
 
-```sh
-   mvn clean install
+```bash
+mvn clean install
+```
+
+---
 
 ## Viewing Test Reports
 
-Generate Allure report
+Generate the Allure report:
 
-```sh
-   mvn allure:report
+```bash
+mvn allure:report
+```
 
-----sh
-  Serve Allure report locally
+Serve the Allure report locally:
+
+```bash
+allure serve target/allure-results
+```
