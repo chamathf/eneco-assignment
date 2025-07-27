@@ -4,11 +4,14 @@ import api.integration.BaseApiTest;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.extension.ExtendWith;
+import utils.RetryExtension;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.anyOf;
 import static org.hamcrest.Matchers.is;
 
+@ExtendWith(RetryExtension.class)
 public class NegativeBookingTests extends BaseApiTest {
 
     @BeforeAll

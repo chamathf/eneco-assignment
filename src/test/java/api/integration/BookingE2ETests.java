@@ -9,10 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import api.integration.BaseApiTest;
+import org.junit.jupiter.api.extension.ExtendWith;
+import utils.RetryExtension;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
+@ExtendWith(RetryExtension.class)
 public class BookingE2ETests extends BaseApiTest {
 
     @BeforeAll
