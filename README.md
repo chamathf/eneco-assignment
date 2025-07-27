@@ -89,3 +89,9 @@ Serve the Allure report locally:
 ```bash
 allure serve target/allure-results
 ```
+## Allure Test DashBoard
+
+<img width="1917" height="878" alt="image" src="https://github.com/user-attachments/assets/6e083902-c755-4595-8a6e-936026fbe9ce" />
+<img width="1083" height="898" alt="image" src="https://github.com/user-attachments/assets/037761ab-a2f0-48cf-938b-274599192d5f" />
+
+
