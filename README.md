@@ -129,3 +129,9 @@ Serve the Allure report locally:
 ```bash
 allure serve target/allure-results
 ```
+
+<img width="1898" height="887" alt="image" src="https://github.com/user-attachments/assets/75e99ac4-00e9-4d38-8f45-bbf21f43c96b" />
+
+
+<img width="1062" height="872" alt="image" src="https://github.com/user-attachments/assets/17257e00-bf5e-44ad-afa3-88efee1af230" />
+
